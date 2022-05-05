@@ -742,6 +742,26 @@ color: rgba(117, 117, 117, 1);
 .contact-chackbox {
   margin-bottom: 30px;
 }
+.contact-chackbox-input {
+  
+}
+.contact-chackbox-input:checked + .contact-chackbox-label::before {
+background-color: rgba(33, 150, 243, 1);
+}
+/*.contact-chackbox-label {
+  display: flex;
+  align-items: center;
+}
+.contact-chackbox-label::before {
+  content:'';
+  display: inline-block;
+  height: 15px;
+  width: 16px;
+  border: 2px solid rgba(33, 33, 33, 1);;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: rgba(33, 150, 243, 1);
+}*/
 .contact-chackbox-label-name {
 font-family: var(--font-family-primary);
 font-size: 14px;
@@ -776,6 +796,7 @@ text-align: left;
 text-decoration: underline;
 color: #2196f3;
 }
+
 /*===========================PORTFOLIO=====================================*/
 
 /*-----ФИЛЬТРЫ-----*/
