@@ -453,7 +453,6 @@
             </li>
           </ul>
         </div>
-
         <div class="footer-mailing">
           <form class="footer-mailing-form">
             <p class="footer-mailing-header">Подпишитесь на рассылку</p>
@@ -468,7 +467,7 @@
         </div>
       </div>
     </footer>
-
+    <!--МОДАЛЬНОЕ ОКНО-->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
@@ -476,60 +475,59 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-
         <form class="contact-form">
-        <p class="contact-form-text">Оставьте свои данные, мы вам перезвоним</p>
-
-        <label class="contact-form-field">
-          <span class="contact-form-field-name">Имя</span>
-          <span class="input-wrapper">
-          <input name="input-name" class="contact-form-input" type="text" required />
-          <svg class="icon-contact-form" width="18" height="18">
-              <use href="./images/icons.svg#icon-name"></use>
-          </svg>
-          </span>
-        </label>
-
-        <label class="contact-form-field">
-          <span class="contact-form-field-name">Телефон</span>
-          <span class="input-wrapper">
-          <input name="input-phone" class="contact-form-input" type="tel" required />
-          <svg class="icon-contact-form" width="18" height="18">
-              <use href="./images/icons.svg#icon-tel"></use>
-          </svg>
-        </span>
-        </label>
-
-        <label class="contact-form-field">
-          <span class="contact-form-field-name">Почта</span>
-          <span class="input-wrapper">
-          <input name="input-email" class="contact-form-input" type="email" />
-          <svg class="icon-contact-form" width="18" height="18">
-              <use href="./images/icons.svg#icon-email"></use>
-          </svg>
-        </span>
-        </label>
-
-        <label class="contact-form-field">
-          <span class="contact-form-field-name">Комментарий</span>
-          <textarea
-            name="input-message"
-            class="contact-form-message"
-            placeholder="Введите текст"
-          ></textarea>
-        </label>
-
-        <div class="contact-chackbox">
-          <input name="accept-policy" class="contact-chackbox-input" type="checkbox" id="accept-policy" required />
-          <label for="accept-policy" class="contact-chackbox-label">
-            Соглашаюсь с рассылкой и принимаю
-            <a class="contact-chackbox-label-link" href="./">Условия договора</a>
+          <p class="contact-form-text">Оставьте свои данные, мы вам перезвоним</p>
+          <label class="contact-form-field">
+            <span class="contact-form-field-name">Имя</span>
+            <span class="input-wrapper">
+              <input name="input-name" class="contact-form-input" type="text" required />
+              <svg class="icon-contact-form" width="18" height="18">
+                <use href="./images/icons.svg#icon-name"></use>
+              </svg>
+            </span>
           </label>
+          <label class="contact-form-field">
+            <span class="contact-form-field-name">Телефон</span>
+            <span class="input-wrapper">
+              <input name="input-phone" class="contact-form-input" type="tel" required />
+              <svg class="icon-contact-form" width="18" height="18">
+                <use href="./images/icons.svg#icon-tel"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="contact-form-field">
+            <span class="contact-form-field-name">Почта</span>
+            <span class="input-wrapper">
+              <input name="input-email" class="contact-form-input" type="email" />
+              <svg class="icon-contact-form" width="18" height="18">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="contact-form-field">
+            <span class="contact-form-field-name">Комментарий</span>
+            <textarea
+              name="input-message"
+              class="contact-form-message"
+              placeholder="Введите текст"
+            ></textarea>
+          </label>
+          <div class="contact-chackbox">
+            <input
+              name="accept-policy"
+              class="contact-chackbox-input"
+              type="checkbox"
+              id="accept-policy"
+              required
+            />
+            <label for="accept-policy" class="contact-chackbox-label">
+              Соглашаюсь с рассылкой и принимаю
+              <a class="contact-chackbox-label-link" href="./">Условия договора</a>
+            </label>
+          </div>
+          <button type="submit" class="contact-form-submit-btn">Отправить</button>
+        </form>
       </div>
-      <button type="submit" class="contact-form-submit-btn">Отправить</button>
-      </div>
-        
-      </form>
     </div>
     <script src="./js/modal.js"></script>
   </body>
